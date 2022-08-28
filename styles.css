@@ -1,0 +1,360 @@
+body{
+    margin: 0px;
+}
+
+/* Body header */
+
+#body-header{
+    height: 60vh;
+    opacity: 0.9;
+    background-image: url(https://www.designyourway.net/blog/wp-content/uploads/2018/12/Information-technology-big-data-collection-complex.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1rem;
+}
+
+/* horizontal list */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    height: 4vh;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.horizontal-list li a{
+    color: rgb(166, 249, 0);
+    font-size: 1.5rem;
+    text-decoration: none;
+    transform: color 0.5s, border-bottom 4s;
+}
+
+.horizontal-list li a i{
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transform: color 0.5s, border-bottom 4s;
+}
+
+.horizontal-list li a:hover{
+    color: wheat;
+    font-size: 2rem;
+    
+}
+
+.nave-manu li a:hover{
+    border-bottom: 1px solid wheat;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* social icons */
+
+#social-name-container{
+    margin: 20vh;
+}
+
+#my-name{
+    font-size: 3rem;
+    color: black;
+    letter-spacing: 0.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icon li a i{
+    padding: 0.1rem;
+    border-radius: 50%;
+}
+
+
+/* about section */
+
+#about{
+    height: auto;
+    width: 100%;
+}
+
+#my-image{
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: -7rem;
+    position: relative;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px white;
+} 
+
+#about-para{
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+/* section settings */
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+section:nth-child(2n + 1){
+    background-color: white;
+}
+
+section:nth-child(2n){
+    background-color: rgb(247, 243, 236);
+}
+
+.section-heading{
+    width: 100%;
+    font-weight: 600;
+    color: rgb(19, 19, 127);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-heading span{
+    font-size: 2rem;
+    display: inline-block;
+    padding-top: 10px;
+    margin: 0.5rem;
+}
+
+/* skill section */
+
+.skill-display{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+}
+
+.skill-progress{
+    width: 12rem;
+    height: 1.4rem;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin: 10px 20px 10px 20px;
+}
+
+.skill-progress>div{
+    height: inherit;
+    border-radius: 20px 0px 0px 20px;
+    text-align: left;
+    border-right: 2px solid white;
+}
+
+.skill-display span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.green{
+    background-color: rgb(47, 114, 47);
+}
+
+.cpp{
+    width: 80%;
+}
+
+.java{
+    width: 60%;
+}
+
+.c{
+    width: 70%;
+}
+
+.html{
+    width: 50%;
+}
+
+.dsa{
+    width: 75%;
+}
+
+.css{
+    width: 40%;
+}
+
+.mysql{
+    width: 50%;
+}
+
+.javascript{
+    width: 5%;
+}
+
+/* timeline section */
+
+.timeline{
+    width: 70%;
+    position: relative;
+}
+
+.timeline-box{
+    position: relative;
+    width: 40%;
+    min-height: 200px;
+    margin: 5px;
+}
+
+.timeline-box:nth-child(2n){
+    left: 58%;
+}
+
+.timeline-divider{
+    position: absolute;
+    height: 75%;
+    width: 0px;
+    top: 10%;
+    left: 50%;
+    border: 0.5px dashed blue;
+}
+
+.timeline-traveler{
+    position: sticky;
+    top: 30%;
+    transform: rotate(90deg);
+    color: rgb(19, 19, 127);    
+}
+
+.timeline-para{
+    padding: 10px;
+    height: 100%;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.box-left::after{
+    content: '';
+    position: absolute;
+    left: 122.5%;
+    top: 25%;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: rgb(19, 19, 127);
+    border-radius: 50%;
+}
+
+.box-right::before{
+    content: '';
+    position: absolute;
+    right: 119.5%;
+    top: 35%;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: rgb(19, 19, 127);
+    border-radius: 50%;
+}
+
+.timeline-heading{
+    font-weight: 600;
+    color: rgb(19, 19, 127);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.timeline-heading-left{
+    font-weight: 600;
+    color: rgb(19, 19, 127);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+.timeline-heading-right{
+    font-weight: 600;
+    color: rgb(19, 19, 127);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+
+    .timeline-box{
+        width: 80%;
+        left: 10%;
+    }
+
+    .timeline-box:nth-child(2n){
+        left: 10%;
+    }
+
+    .timeline-divider{
+        left: 0%;
+    }
+
+    .box-left::after{
+        left: -16%;
+    }
+
+    .box-right::before{
+        right: 112%;
+    }
+}
+
+/* portfilio section */
+
+.portfilio-display{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.portfilio-image{
+    width: 300px;
+    height: 300px;
+}
+
+.portfilio-image img{
+    width: inherit;
+    height: inherit;
+}
+.portfilio-display a{
+    margin: 20px;
+}
+
+.portfilio-display a:hover{
+    box-shadow: 0px 0px 6px 4px wheat;
+}
+
+
